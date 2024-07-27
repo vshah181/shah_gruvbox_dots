@@ -1,0 +1,13 @@
+profile monitor_to_1 {
+    output DP-1 enable mode 2560x1440@74.932Hz position 0,0
+    output eDP-1 enable mode 1920x1200@59.95Hz position 2560,650
+}
+
+profile monitor_to_2 {
+    output DP-2 enable mode 2560x1440@74.932Hz position 0,0
+    output eDP-1 enable mode 1920x1200@59.95Hz position 2560,650
+}
+
+profile single_monitor {
+    output eDP-1 enable mode 1920x1200@59.95Hz position 0,0 
+}
